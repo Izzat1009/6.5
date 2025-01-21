@@ -1,0 +1,33 @@
+.grids{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.grid__items{
+    border-radius: 15px;
+    transition: .3s;
+    cursor: pointer;
+    gap: 0 30px;
+}
+.grid__items:hover{
+    box-shadow: 2px 2px 12px 0px ;
+    transform: scale(1.05);
+}
+.grid__img{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.grid__title{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

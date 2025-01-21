@@ -1,0 +1,25 @@
+.header__collection{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    list-style: none;
+    gap: 0 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.header__collection li:hover{
+    border-bottom: 2px solid black;
+
+    color: #d3d3d3;
+    overflow: auto;
+}
+.header__collection li{
+    transition: .3s;
+    overflow: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+.header__collection{
+    overflow: hidden;
+    overflow: auto;
+}
