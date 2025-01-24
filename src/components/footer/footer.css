@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1440px;
+    height: 200px;
+    background-color: #000;
+    
+}
+.footer__collection{
+    color: #fff;
+    margin-top: 50px;
+    margin-left: -80px;
+    margin-right: 500px;
+    list-style: none;
+}
+.footer__collection2{
+    
+    color: #fff;
+    margin-top: 50px;
+    list-style: none;
+}
